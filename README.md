@@ -13,5 +13,8 @@ https://youtu.be/RQYI0P72Q4Q?si=kSssbeXkQdsLU7UV
 - Find corresponding positions of corner points in template image to real time video capture frame by transformation with computed Homography matrix.
 - Plot matches and bounding box using opencv draw functions.
 
+### Note
+The SURF detection features was implemented on top of the camera-app project. So please use the comments in code to check the code for just SURF detection.
+
 
 
