@@ -14,8 +14,13 @@ https://youtu.be/RQYI0P72Q4Q?si=kSssbeXkQdsLU7UV
 - Find corresponding positions of corner points in template image to real time video capture frame by transformation with computed Homography matrix.
 - Plot matches and bounding box using opencv draw functions.
 
+### How-to-use
+- Run the camera-app python file. 
+- Click the 'd' button on your keyboard to start detecting the object in real time.
+- You can change the template image with your custom image but be careful complex templates needed some fine-tuning of SURF params.
+
 ### Note
-The SURF detection features was implemented on top of the [camera-app](https://github.com/tusharparimi/camera-app) project. So please use the comments in code to check the code for just SURF detection.
+The SURF features detection was implemented on top of the [camera-app](https://github.com/tusharparimi/camera-app) project. So please use the comments in code to check the code for just SURF detection.
 
 
 
