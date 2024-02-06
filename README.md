@@ -10,7 +10,7 @@ https://youtu.be/RQYI0P72Q4Q?si=kSssbeXkQdsLU7UV
 ### Flow
 - Extract SURF features(keypoints, descriptors) in template image (book) and in real time video capture frame.
 - Find corresponding matches between the two sets of extracted features using FLANN(Fast Library for Approximate Nearest Neighbors)
-- Compute the Homography matrix based on matched correspondenses (particularly used RANSAC regressor for Homography)
+- Compute the Homography matrix based on matched correspondenses (particularly used RANSAC regressor for Homography estimation)
 - Find corresponding positions of corner points in template image to real time video capture frame by transformation with computed Homography matrix.
 - Plot matches and bounding box using opencv draw functions.
 
