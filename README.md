@@ -20,7 +20,11 @@ https://youtu.be/RQYI0P72Q4Q?si=kSssbeXkQdsLU7UV
 - You can change the template image(book.png) with your custom image but be careful complex templates needed some fine-tuning of SURF params. Also have the custom image in the same directory with the same name (book.png) or replace the path in line 408 of camera-app.py script.
 
 ### Note
-The SURF features detection was implemented on top of the [camera-app](https://github.com/tusharparimi/camera-app) project. So please use the comments in code to check the code for just SURF detection.
+- The SURF features detection was implemented on top of the [camera-app](https://github.com/tusharparimi/camera-app) project. So please use the comments in code to check the code for just SURF detection.
+- Surf algorithm is not available in standard pip installation of opencv-contrib-python. Download and compile using CMake with flag OPENCV_ENABLE_NONFREE=ON. I installed this version in a virtual env.
+Tutorial- https://pyimagesearch.com/2018/08/15/how-to-install-opencv-4-on-ubuntu/
+
+
 
 
 
