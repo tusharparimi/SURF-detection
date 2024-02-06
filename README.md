@@ -17,7 +17,7 @@ https://youtu.be/RQYI0P72Q4Q?si=kSssbeXkQdsLU7UV
 ### How-to-use
 - Run the camera-app python file. 
 - Click the 'd' button on your keyboard to start detecting the object in real time.
-- You can change the template image with your custom image but be careful complex templates needed some fine-tuning of SURF params.
+- You can change the template image(book.png) with your custom image but be careful complex templates needed some fine-tuning of SURF params. Also have the custom image in the same directory with the same name (book.png) or replace the path in line 408 of camera-app.py script.
 
 ### Note
 The SURF features detection was implemented on top of the [camera-app](https://github.com/tusharparimi/camera-app) project. So please use the comments in code to check the code for just SURF detection.
